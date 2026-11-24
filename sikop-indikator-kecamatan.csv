@@ -1,0 +1,637 @@
+﻿indikator_id,indikator,satuan,kode_wilayah,wilayah,nilai,sumber,tahun
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813010,Kec. Lemong,42,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813020,Kec. Pesisir Utara,28,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813030,Kec. Pulau Pisang,5,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813040,Kec. Karya Penggawa,32,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813050,Kec. Way Krui,14,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813060,Kec. Pesisir Tengah,46,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813070,Kec. Krui Selatan,22,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813080,Kec. Pesisir Selatan,51,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813090,Kec. Ngambur,38,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813100,Kec. Ngaras,23,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813110,Kec. Bangkunat,63,Data Pokok Pendidikan (Dapodik),2026
+jumlah_sekolah,Jumlah satuan pendidikan,unit,1813,Kabupaten Pesisir Barat,364,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813010,Kec. Lemong,24.210526315789473,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813020,Kec. Pesisir Utara,15.178571428571427,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813030,Kec. Pulau Pisang,39.130434782608695,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813040,Kec. Karya Penggawa,26.153846153846157,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813050,Kec. Way Krui,35.483870967741936,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813060,Kec. Pesisir Tengah,44.21965317919075,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813070,Kec. Krui Selatan,20.652173913043477,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813080,Kec. Pesisir Selatan,27.692307692307693,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813090,Kec. Ngambur,27.155172413793103,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813100,Kec. Ngaras,18.69158878504673,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813110,Kec. Bangkunat,20.233463035019454,Data Pokok Pendidikan (Dapodik),2026
+persen_kelas_baik,Ruang kelas dalam kondisi baik,%,1813,Kabupaten Pesisir Barat,27.995582551076755,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813010,Kec. Lemong,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813020,Kec. Pesisir Utara,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813030,Kec. Pulau Pisang,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813040,Kec. Karya Penggawa,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813050,Kec. Way Krui,76.92307692307693,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813060,Kec. Pesisir Tengah,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813070,Kec. Krui Selatan,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813080,Kec. Pesisir Selatan,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813090,Kec. Ngambur,100,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813100,Kec. Ngaras,95.23809523809523,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813110,Kec. Bangkunat,95.91836734693877,Data Pokok Pendidikan (Dapodik),2026
+persen_akses_internet,Sekolah dengan akses internet,%,1813,Kabupaten Pesisir Barat,98.01324503311258,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813010,Kec. Lemong,92.3076923076923,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813020,Kec. Pesisir Utara,83.33333333333334,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813030,Kec. Pulau Pisang,80,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813040,Kec. Karya Penggawa,88.46153846153845,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813050,Kec. Way Krui,100,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813060,Kec. Pesisir Tengah,92.5,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813070,Kec. Krui Selatan,100,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813080,Kec. Pesisir Selatan,95.23809523809523,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813090,Kec. Ngambur,100,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813100,Kec. Ngaras,90.47619047619048,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813110,Kec. Bangkunat,93.87755102040816,Data Pokok Pendidikan (Dapodik),2026
+persen_listrik,Sekolah dengan sumber listrik,%,1813,Kabupaten Pesisir Barat,93.04635761589404,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813010,Kec. Lemong,19.047619047619047,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813020,Kec. Pesisir Utara,42.857142857142854,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813030,Kec. Pulau Pisang,60,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813040,Kec. Karya Penggawa,28.125,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813050,Kec. Way Krui,50,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813060,Kec. Pesisir Tengah,67.3913043478261,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813070,Kec. Krui Selatan,63.63636363636363,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813080,Kec. Pesisir Selatan,43.13725490196079,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813090,Kec. Ngambur,39.473684210526315,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813100,Kec. Ngaras,26.08695652173913,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813110,Kec. Bangkunat,20.634920634920633,Data Pokok Pendidikan (Dapodik),2026
+persen_akreditasi_ab,Sekolah terakreditasi A atau B,%,1813,Kabupaten Pesisir Barat,38.46153846153847,Data Pokok Pendidikan (Dapodik),2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813010,Kec. Lemong,84.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813030,Kec. Pulau Pisang,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813040,Kec. Karya Penggawa,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813050,Kec. Way Krui,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813060,Kec. Pesisir Tengah,62.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813070,Kec. Krui Selatan,70,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813080,Kec. Pesisir Selatan,70.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813090,Kec. Ngambur,55.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813100,Kec. Ngaras,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813110,Kec. Bangkunat,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pesisir,Desa/kelurahan pesisir,%,1813,Kabupaten Pesisir Barat,69.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813010,Kec. Lemong,53.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813020,Kec. Pesisir Utara,75,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813040,Kec. Karya Penggawa,41.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813050,Kec. Way Krui,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813060,Kec. Pesisir Tengah,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813080,Kec. Pesisir Selatan,41.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813090,Kec. Ngambur,22.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813100,Kec. Ngaras,55.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_hutan,Desa/kelurahan di dalam atau tepi kawasan hutan,%,1813,Kabupaten Pesisir Barat,33.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813060,Kec. Pesisir Tengah,37.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813080,Kec. Pesisir Selatan,5.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perkotaan,Desa/kelurahan berstatus perkotaan,%,1813,Kabupaten Pesisir Barat,4.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813060,Kec. Pesisir Tengah,62.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813110,Kec. Bangkunat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pertanian,Desa/kelurahan dengan penghasilan utama dari pertanian,%,1813,Kabupaten Pesisir Barat,97.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813010,Kec. Lemong,46.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813020,Kec. Pesisir Utara,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813040,Kec. Karya Penggawa,91.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813110,Kec. Bangkunat,73.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_internet_4g,Desa/kelurahan dengan sinyal internet 4G,%,1813,Kabupaten Pesisir Barat,86,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813010,Kec. Lemong,46.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813020,Kec. Pesisir Utara,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813040,Kec. Karya Penggawa,91.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813110,Kec. Bangkunat,73.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sinyal_kuat,Desa/kelurahan dengan sinyal telepon seluler kuat,%,1813,Kabupaten Pesisir Barat,86,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813110,Kec. Bangkunat,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalan_aspal,Desa/kelurahan dengan jalan antardesa beraspal,%,1813,Kabupaten Pesisir Barat,95.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813050,Kec. Way Krui,90,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813060,Kec. Pesisir Tengah,87.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813080,Kec. Pesisir Selatan,82.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813090,Kec. Ngambur,55.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813100,Kec. Ngaras,77.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813110,Kec. Bangkunat,80,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_angkutan_umum,Desa/kelurahan yang dilalui angkutan umum,%,1813,Kabupaten Pesisir Barat,83.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813010,Kec. Lemong,90,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813020,Kec. Pesisir Utara,57.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813030,Kec. Pulau Pisang,119,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813040,Kec. Karya Penggawa,15,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813050,Kec. Way Krui,13.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813060,Kec. Pesisir Tengah,5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813070,Kec. Krui Selatan,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813080,Kec. Pesisir Selatan,36,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813090,Kec. Ngambur,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813100,Kec. Ngaras,119,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813110,Kec. Bangkunat,179,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_waktu_kabupaten,Waktu tempuh desa ke kantor bupati (median),menit,1813,Kabupaten Pesisir Barat,51,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813010,Kec. Lemong,92.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813020,Kec. Pesisir Utara,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813030,Kec. Pulau Pisang,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813040,Kec. Karya Penggawa,91.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813050,Kec. Way Krui,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813070,Kec. Krui Selatan,80,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813100,Kec. Ngaras,88.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813110,Kec. Bangkunat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sd,Desa/kelurahan yang memiliki SD/MI,%,1813,Kabupaten Pesisir Barat,85.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813010,Kec. Lemong,53.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813020,Kec. Pesisir Utara,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813030,Kec. Pulau Pisang,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813060,Kec. Pesisir Tengah,37.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813070,Kec. Krui Selatan,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813080,Kec. Pesisir Selatan,41.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813090,Kec. Ngambur,88.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813100,Kec. Ngaras,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813110,Kec. Bangkunat,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_smp,Desa/kelurahan yang memiliki SMP/MTs,%,1813,Kabupaten Pesisir Barat,38,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813010,Kec. Lemong,7.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813020,Kec. Pesisir Utara,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813060,Kec. Pesisir Tengah,37.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813070,Kec. Krui Selatan,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813080,Kec. Pesisir Selatan,5.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813090,Kec. Ngambur,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813110,Kec. Bangkunat,26.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ada_sma,Desa/kelurahan yang memiliki SMA/MA/SMK,%,1813,Kabupaten Pesisir Barat,15.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813010,Kec. Lemong,12,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813020,Kec. Pesisir Utara,7.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813030,Kec. Pulau Pisang,19,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813040,Kec. Karya Penggawa,2.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813050,Kec. Way Krui,4.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813060,Kec. Pesisir Tengah,3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813070,Kec. Krui Selatan,4.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813080,Kec. Pesisir Selatan,5.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813090,Kec. Ngambur,4.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813100,Kec. Ngaras,7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813110,Kec. Bangkunat,4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_sma,Jarak desa tanpa SMA/MA/SMK ke sekolah terdekat (median),km,1813,Kabupaten Pesisir Barat,5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813030,Kec. Pulau Pisang,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813070,Kec. Krui Selatan,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813090,Kec. Ngambur,55.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tbm,Desa/kelurahan yang memiliki taman bacaan atau perpustakaan,%,1813,Kabupaten Pesisir Barat,11.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813010,Kec. Lemong,61.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813020,Kec. Pesisir Utara,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813030,Kec. Pulau Pisang,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813040,Kec. Karya Penggawa,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813050,Kec. Way Krui,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813060,Kec. Pesisir Tengah,37.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813070,Kec. Krui Selatan,80,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813080,Kec. Pesisir Selatan,47.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813100,Kec. Ngaras,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813110,Kec. Bangkunat,86.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_faskes_dasar,Desa/kelurahan yang memiliki fasilitas kesehatan dasar,%,1813,Kabupaten Pesisir Barat,52.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813010,Kec. Lemong,38.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813030,Kec. Pulau Pisang,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813040,Kec. Karya Penggawa,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813050,Kec. Way Krui,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813060,Kec. Pesisir Tengah,87.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813070,Kec. Krui Selatan,70,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813090,Kec. Ngambur,77.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813100,Kec. Ngaras,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813110,Kec. Bangkunat,86.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bidan,Desa/kelurahan yang memiliki praktik mandiri bidan,%,1813,Kabupaten Pesisir Barat,61.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813060,Kec. Pesisir Tengah,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813070,Kec. Krui Selatan,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813080,Kec. Pesisir Selatan,11.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813090,Kec. Ngambur,22.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dokter,Desa/kelurahan yang memiliki praktik mandiri dokter,%,1813,Kabupaten Pesisir Barat,11.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813110,Kec. Bangkunat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_posyandu,Desa/kelurahan dengan posyandu aktif setiap bulan,%,1813,Kabupaten Pesisir Barat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813010,Kec. Lemong,7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813020,Kec. Pesisir Utara,7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813030,Kec. Pulau Pisang,2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813040,Kec. Karya Penggawa,2.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813050,Kec. Way Krui,1.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813060,Kec. Pesisir Tengah,2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813070,Kec. Krui Selatan,2.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813080,Kec. Pesisir Selatan,6.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813090,Kec. Ngambur,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813100,Kec. Ngaras,7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813110,Kec. Bangkunat,9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_puskesmas,Jarak desa tanpa puskesmas ke puskesmas terdekat (median),km,1813,Kabupaten Pesisir Barat,5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813010,Kec. Lemong,0.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813020,Kec. Pesisir Utara,0.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813060,Kec. Pesisir Tengah,0.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813080,Kec. Pesisir Selatan,0.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813110,Kec. Bangkunat,2.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_tanpa_listrik,Keluarga tanpa listrik,%,1813,Kabupaten Pesisir Barat,0.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813090,Kec. Ngambur,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813110,Kec. Bangkunat,53.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_septik,Desa/kelurahan yang mayoritas keluarganya memakai tangki septik,%,1813,Kabupaten Pesisir Barat,91.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813010,Kec. Lemong,30.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813040,Kec. Karya Penggawa,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_air_sungai,Desa/kelurahan yang mayoritas keluarganya minum air sungai atau danau,%,1813,Kabupaten Pesisir Barat,15.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813110,Kec. Bangkunat,26.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kayu_bakar,Desa/kelurahan yang mayoritas keluarganya memasak dengan kayu bakar,%,1813,Kabupaten Pesisir Barat,3.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813010,Kec. Lemong,38.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813020,Kec. Pesisir Utara,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813070,Kec. Krui Selatan,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813080,Kec. Pesisir Selatan,11.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813090,Kec. Ngambur,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813100,Kec. Ngaras,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813110,Kec. Bangkunat,73.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_energi_terbarukan,Desa/kelurahan yang memanfaatkan energi terbarukan,%,1813,Kabupaten Pesisir Barat,24.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813070,Kec. Krui Selatan,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813080,Kec. Pesisir Selatan,17.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813100,Kec. Ngaras,22.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bencana,Desa/kelurahan yang mengalami bencana alam,%,1813,Kabupaten Pesisir Barat,6.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813060,Kec. Pesisir Tengah,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813110,Kec. Bangkunat,6.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_dini,Desa/kelurahan yang memiliki sistem peringatan dini bencana,%,1813,Kabupaten Pesisir Barat,2.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813110,Kec. Bangkunat,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_peringatan_tsunami,Desa pesisir yang memiliki sistem peringatan dini tsunami,%,1813,Kabupaten Pesisir Barat,1.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813010,Kec. Lemong,61.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813020,Kec. Pesisir Utara,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813040,Kec. Karya Penggawa,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813060,Kec. Pesisir Tengah,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813070,Kec. Krui Selatan,70,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813080,Kec. Pesisir Selatan,35.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813090,Kec. Ngambur,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jalur_evakuasi,Desa/kelurahan yang memiliki rambu dan jalur evakuasi,%,1813,Kabupaten Pesisir Barat,36.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813010,Kec. Lemong,15.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813020,Kec. Pesisir Utara,75,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813030,Kec. Pulau Pisang,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813040,Kec. Karya Penggawa,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813060,Kec. Pesisir Tengah,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813070,Kec. Krui Selatan,40,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813080,Kec. Pesisir Selatan,41.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813090,Kec. Ngambur,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813100,Kec. Ngaras,77.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813110,Kec. Bangkunat,46.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_dampak_iklim,Desa/kelurahan yang terdampak perubahan iklim,%,1813,Kabupaten Pesisir Barat,41.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813060,Kec. Pesisir Tengah,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813070,Kec. Krui Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813090,Kec. Ngambur,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813110,Kec. Bangkunat,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bank,Desa/kelurahan yang memiliki kantor bank,%,1813,Kabupaten Pesisir Barat,2.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813010,Kec. Lemong,69.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813020,Kec. Pesisir Utara,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813030,Kec. Pulau Pisang,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813040,Kec. Karya Penggawa,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813050,Kec. Way Krui,80,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813060,Kec. Pesisir Tengah,87.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813070,Kec. Krui Selatan,70,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813080,Kec. Pesisir Selatan,76.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813090,Kec. Ngambur,88.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813100,Kec. Ngaras,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813110,Kec. Bangkunat,86.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_agen_bank,Desa/kelurahan yang memiliki agen bank,%,1813,Kabupaten Pesisir Barat,72.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813010,Kec. Lemong,53,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813020,Kec. Pesisir Utara,35.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813030,Kec. Pulau Pisang,19,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813040,Kec. Karya Penggawa,8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813050,Kec. Way Krui,3.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813060,Kec. Pesisir Tengah,3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813070,Kec. Krui Selatan,8.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813080,Kec. Pesisir Selatan,17,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813090,Kec. Ngambur,8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813100,Kec. Ngaras,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813110,Kec. Bangkunat,54,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_jarak_bank,Jarak desa tanpa kantor bank ke bank terdekat (median),km,1813,Kabupaten Pesisir Barat,19,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813040,Kec. Karya Penggawa,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813050,Kec. Way Krui,80,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813060,Kec. Pesisir Tengah,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813070,Kec. Krui Selatan,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813080,Kec. Pesisir Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813110,Kec. Bangkunat,26.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_kur,Desa/kelurahan dengan penerima Kredit Usaha Rakyat (KUR),%,1813,Kabupaten Pesisir Barat,78.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813010,Kec. Lemong,30.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813020,Kec. Pesisir Utara,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813040,Kec. Karya Penggawa,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813060,Kec. Pesisir Tengah,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813070,Kec. Krui Selatan,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813090,Kec. Ngambur,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813110,Kec. Bangkunat,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_pasar,Desa/kelurahan yang memiliki pasar,%,1813,Kabupaten Pesisir Barat,28.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813010,Kec. Lemong,15.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813060,Kec. Pesisir Tengah,62.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813070,Kec. Krui Selatan,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813090,Kec. Ngambur,22.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_minimarket,Desa/kelurahan yang memiliki minimarket,%,1813,Kabupaten Pesisir Barat,17.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813010,Kec. Lemong,15.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813040,Kec. Karya Penggawa,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813060,Kec. Pesisir Tengah,62.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813070,Kec. Krui Selatan,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813090,Kec. Ngambur,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813100,Kec. Ngaras,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813110,Kec. Bangkunat,6.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_akomodasi,Desa/kelurahan yang memiliki hotel atau penginapan,%,1813,Kabupaten Pesisir Barat,21.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813010,Kec. Lemong,30.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813070,Kec. Krui Selatan,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_produk_unggulan,Desa/kelurahan yang memiliki produk unggulan,%,1813,Kabupaten Pesisir Barat,6.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813030,Kec. Pulau Pisang,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813040,Kec. Karya Penggawa,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813050,Kec. Way Krui,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813060,Kec. Pesisir Tengah,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813080,Kec. Pesisir Selatan,41.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813090,Kec. Ngambur,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_sid,Desa dengan sistem informasi desa yang mutakhir,%,1813,Kabupaten Pesisir Barat,52.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813030,Kec. Pulau Pisang,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813040,Kec. Karya Penggawa,75,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813050,Kec. Way Krui,70,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813070,Kec. Krui Selatan,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813110,Kec. Bangkunat,40,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskeudes,Desa dengan sistem keuangan desa yang mutakhir,%,1813,Kabupaten Pesisir Barat,84.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813020,Kec. Pesisir Utara,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813040,Kec. Karya Penggawa,91.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813060,Kec. Pesisir Tengah,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813070,Kec. Krui Selatan,90,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813090,Kec. Ngambur,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813100,Kec. Ngaras,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813110,Kec. Bangkunat,73.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bumdes,Desa yang memiliki unit usaha BUMDes,%,1813,Kabupaten Pesisir Barat,93.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813010,Kec. Lemong,53.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813020,Kec. Pesisir Utara,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813050,Kec. Way Krui,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813060,Kec. Pesisir Tengah,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813070,Kec. Krui Selatan,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813080,Kec. Pesisir Selatan,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813090,Kec. Ngambur,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813100,Kec. Ngaras,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813110,Kec. Bangkunat,6.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_perdes_pug,Desa dengan peraturan desa tentang gender atau perlindungan anak,%,1813,Kabupaten Pesisir Barat,28.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813010,Kec. Lemong,69.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813020,Kec. Pesisir Utara,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813030,Kec. Pulau Pisang,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813040,Kec. Karya Penggawa,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813050,Kec. Way Krui,90,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813060,Kec. Pesisir Tengah,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813070,Kec. Krui Selatan,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813080,Kec. Pesisir Selatan,52.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813090,Kec. Ngambur,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813100,Kec. Ngaras,55.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813110,Kec. Bangkunat,13.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_apbdes_ppa,Desa yang mengalokasikan APBDes untuk perempuan dan anak,%,1813,Kabupaten Pesisir Barat,49.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813010,Kec. Lemong,84.6,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813020,Kec. Pesisir Utara,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813040,Kec. Karya Penggawa,83.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813050,Kec. Way Krui,40,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813060,Kec. Pesisir Tengah,85.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813070,Kec. Krui Selatan,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813080,Kec. Pesisir Selatan,68.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813090,Kec. Ngambur,88.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813100,Kec. Ngaras,77.8,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813110,Kec. Bangkunat,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_bpd_perempuan,Desa/kelurahan yang BPD-nya beranggota perempuan,%,1813,Kabupaten Pesisir Barat,69.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813010,Kec. Lemong,61.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813020,Kec. Pesisir Utara,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813030,Kec. Pulau Pisang,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813040,Kec. Karya Penggawa,58.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813060,Kec. Pesisir Tengah,75,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813070,Kec. Krui Selatan,60,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813090,Kec. Ngambur,88.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813100,Kec. Ngaras,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813110,Kec. Bangkunat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_lapangan_olahraga,Desa/kelurahan yang memiliki lapangan olahraga,%,1813,Kabupaten Pesisir Barat,66.9,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813020,Kec. Pesisir Utara,8.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813030,Kec. Pulau Pisang,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813040,Kec. Karya Penggawa,16.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813070,Kec. Krui Selatan,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813090,Kec. Ngambur,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813110,Kec. Bangkunat,20,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_ruang_publik,Desa/kelurahan yang memiliki ruang publik terbuka,%,1813,Kabupaten Pesisir Barat,15.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813010,Kec. Lemong,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813020,Kec. Pesisir Utara,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813030,Kec. Pulau Pisang,33.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813040,Kec. Karya Penggawa,41.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813050,Kec. Way Krui,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813060,Kec. Pesisir Tengah,12.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813070,Kec. Krui Selatan,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813080,Kec. Pesisir Selatan,88.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813090,Kec. Ngambur,22.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813100,Kec. Ngaras,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813110,Kec. Bangkunat,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_seni_budaya,Desa/kelurahan dengan kegiatan seni budaya dan olahraga,%,1813,Kabupaten Pesisir Barat,54.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813010,Kec. Lemong,69.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813040,Kec. Karya Penggawa,25,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813050,Kec. Way Krui,100,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813060,Kec. Pesisir Tengah,37.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813070,Kec. Krui Selatan,50,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813080,Kec. Pesisir Selatan,29.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813090,Kec. Ngambur,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813100,Kec. Ngaras,44.4,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813110,Kec. Bangkunat,73.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_siskamling,Desa/kelurahan dengan keamanan lingkungan atas inisiatif warga,%,1813,Kabupaten Pesisir Barat,46.3,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813010,Kec. Lemong,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813020,Kec. Pesisir Utara,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813030,Kec. Pulau Pisang,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813040,Kec. Karya Penggawa,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813050,Kec. Way Krui,10,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813060,Kec. Pesisir Tengah,0,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813070,Kec. Krui Selatan,30,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813080,Kec. Pesisir Selatan,23.5,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813090,Kec. Ngambur,11.1,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813100,Kec. Ngaras,66.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813110,Kec. Bangkunat,6.7,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026
+podes_layanan_pengaduan,Desa/kelurahan yang memiliki layanan pengaduan korban kekerasan,%,1813,Kabupaten Pesisir Barat,13.2,"Podes 2026 (Pemutakhiran Data Perkembangan Desa), BPS",2026

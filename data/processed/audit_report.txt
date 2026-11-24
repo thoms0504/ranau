@@ -1,0 +1,6 @@
+CRS sumber: CRS84 (= EPSG:4326, urutan lng,lat)
+[kecamatan] 1807043 (UMPU SEMENGUK) tidak ada di file kecamatan; dibentuk dari gabungan 13 desa
+[kabupaten] 15 fitur, id unik 15, geometri tidak valid (diperbaiki) 0, ukuran tampilan 0.16 MB
+[kecamatan] 231 fitur, id unik 231, geometri tidak valid (diperbaiki) 0, ukuran tampilan 0.60 MB
+[desa] 2654 fitur, id unik 2654, geometri tidak valid (diperbaiki) 0, ukuran tampilan 1.84 MB
+Wilayah tanpa induk: 0
