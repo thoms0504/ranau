@@ -20,7 +20,8 @@ interface ProfItem { indicator: string; name: string; theme: string; unit: strin
 interface Profile { region: { id: string; name: string; level: string; parent_id: string }; parent: { id: string; name: string; level: string } | null; year: number; is_forecast: boolean; items: ProfItem[] }
 const OPS: Record<string, string> = { gt: ">", gte: "≥", lt: "<", lte: "≤" };
 type View = "actual" | "forecast" | "diff";
-type Tab = "layer" | "rank" | "profil";
+type Tab = "layer" | "profil";
+
 
 export default function PetaPage() {
   const [meta, setMeta] = useState<Meta | null>(null);
@@ -41,6 +42,7 @@ export default function PetaPage() {
   const [themeTab, setThemeTab] = useState<string | null>(null);
   const [worstFirst, setWorstFirst] = useState(false);
   const [showAll, setShowAll] = useState(false);
+  const [showRank, setShowRank] = useState(false);
 
   const [geoAll, setGeoAll] = useState<GeoFC | null>(null);
   const [data, setData] = useState<DataResp | null>(null);
@@ -228,7 +230,7 @@ export default function PetaPage() {
         {err && <p role="alert" style={{ color: "var(--bad)" }}>{err}</p>}
 
         <div role="tablist" className="seg" style={{ width: "100%", marginBottom: 6 }}>
-          {([["layer", "Indikator"], ["rank", "Peringkat"], ["profil", "Profil"]] as [Tab, string][]).map(([k, l]) => (
+          {([["layer", "Indikator"], ["profil", "Profil"]] as [Tab, string][]).map(([k, l]) => (
             <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} style={{ flex: 1 }}>{l}</button>
           ))}
         </div>
@@ -245,7 +247,7 @@ export default function PetaPage() {
               {diff && <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 4 }}>Selisih = nilai {year} dikurangi nilai aktual {last}.</div>}
             </fieldset>
 
-            <div className="panel-h">Indikator <span style={{ fontWeight: 400, textTransform: "none", letterSpacing: 0 }}>· klik kartu = warna peta, centang = bandingkan</span></div>
+            <div className="panel-h">Indikator <span style={{ fontWeight: 400, textTransform: "none", letterSpacing: 0 }}>· klik kartu = warna peta</span></div>
             <div role="tablist" aria-label="Tema indikator" className="theme-tabs">
               {THEMES.map((th) => (
                 <button key={th} role="tab" aria-selected={activeTheme === th} className="theme-tab" style={{ ["--tc" as string]: THEME_COLOR[th] }} onClick={() => setThemeTab(th)}>
@@ -282,7 +284,6 @@ export default function PetaPage() {
                           </button>
                           <span className="ic-side">
                             <span className="ic-info" title={`${i.description} (${year}, nilai provinsi)`} aria-label={i.description} tabIndex={0}>i</span>
-                            <input type="checkbox" title="Bandingkan" aria-label={`Bandingkan ${i.name}`} checked={active || extra.includes(i.id)} disabled={active} onChange={() => toggleExtra(i.id)} />
                           </span>
                         </div>
                       );
@@ -311,36 +312,6 @@ export default function PetaPage() {
           </>
         )}
 
-        {tab === "rank" && cur && (
-          <section>
-            <div className="panel-h" style={{ marginTop: 8 }}>Peringkat {LEVEL_LABEL[level].toLowerCase()}{parentId ? ` di ${titleCase(crumb[parentId] ?? "")}` : " se-Lampung"}</div>
-            <div style={{ fontSize: 13, color: "var(--muted)", marginBottom: 8 }}>{cur.name} · {year}{year > last ? " (proyeksi)" : ""}{diff ? " · selisih" : ""}. Peringkat 1 = terbaik menurut arah indikator ({cur.direction === "low" ? "nilai rendah lebih baik" : cur.direction === "high" ? "nilai tinggi lebih baik" : "netral: nilai terbesar = 1"}).</div>
-            <div className="flex gap-2 mb-2 flex-wrap">
-              <div className="seg" role="tablist"><button role="tab" aria-selected={!worstFirst} onClick={() => setWorstFirst(false)}>Terbaik dulu</button><button role="tab" aria-selected={worstFirst} onClick={() => setWorstFirst(true)}>Terburuk dulu</button></div>
-              <span style={{ fontSize: 12, color: "var(--muted)", alignSelf: "center" }}>{ranking.length} wilayah</span>
-            </div>
-            <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 4 }}>
-              {rankShown.map((r) => (
-                <li key={r.id}>
-                  <button onClick={() => activate(r.id)} onMouseEnter={() => setHover({ id: r.id, x: 0, y: 0 })} onMouseLeave={() => setHover(null)}
-                    className="rank-row" aria-label={`Peringkat ${r.rank}: ${r.name}`}>
-                    <span className="rank-badge">{r.rank}</span>
-                    <span style={{ flex: 1, minWidth: 0 }}>
-                      <span style={{ display: "flex", justifyContent: "space-between", gap: 6, fontSize: 13.5 }}>
-                        <span style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{titleCase(r.name)}</span>
-                        <span style={{ fontVariantNumeric: "tabular-nums", color: "var(--muted)" }}>{fmt(r.v.value, diff ? "" : cur.unit)}</span>
-                      </span>
-                      <span aria-hidden style={{ display: "block", height: 5, background: "var(--chip)", borderRadius: 3, marginTop: 3 }}>
-                        <span style={{ display: "block", height: 5, borderRadius: 3, width: `${Math.max(3, (Math.abs(r.v.value) / rankMax) * 100)}%`, background: scale?.color(r.v.value) ?? "var(--accent)" }} />
-                      </span>
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ol>
-            {ranking.length > 15 && <button className="btn" style={{ marginTop: 10, width: "100%" }} onClick={() => setShowAll((x) => !x)}>{showAll ? "Ringkas" : `Tampilkan semua (${ranking.length})`}</button>}
-          </section>
-        )}
 
         {tab === "profil" && (
           <section aria-live="polite">
@@ -453,6 +424,47 @@ export default function PetaPage() {
               {noData > 0 && <> Abu-abu = tanpa data ({noData}).</>}
             </div>
             <div style={{ marginTop: 5 }}><span className={`badge ${provBadge(cur.status).cls}`}>{provBadge(cur.status).text}</span> {year > last && <span className="badge badge-fc">Proyeksi</span>}</div>
+          </div>
+        )}
+
+        {cur && ranking.length > 0 && (
+          <div className="float" style={{ position: "absolute", right: 10, top: 76, zIndex: 4, width: 300, maxWidth: "calc(100% - 20px)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 14px 8px", borderBottom: showRank ? "1px solid var(--border)" : "none", cursor: "pointer" }}
+              onClick={() => setShowRank((x) => !x)} role="button" aria-expanded={showRank} aria-label="Toggle peringkat">
+              <span style={{ fontSize: 12.5, fontWeight: 700 }}>Peringkat {LEVEL_LABEL[level].toLowerCase()}</span>
+              <span style={{ fontSize: 12, color: "var(--muted)" }}>{showRank ? "▲" : "▼"} {ranking.length} wilayah</span>
+            </div>
+            {showRank && (
+              <div style={{ padding: "8px 14px 10px" }}>
+                <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 6 }}>{cur.name} · {year}{year > last ? " (proyeksi)" : ""}{diff ? " · selisih" : ""}. #1 = {cur.direction === "low" ? "nilai rendah lebih baik" : cur.direction === "high" ? "nilai tinggi lebih baik" : "nilai terbesar"}</div>
+                <div className="flex gap-2 mb-2">
+                  <div className="seg" role="tablist">
+                    <button role="tab" aria-selected={!worstFirst} onClick={() => setWorstFirst(false)} style={{ flex: 1 }}>Terbaik</button>
+                    <button role="tab" aria-selected={worstFirst} onClick={() => setWorstFirst(true)} style={{ flex: 1 }}>Terburuk</button>
+                  </div>
+                </div>
+                <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 4, maxHeight: 320, overflowY: "auto" }}>
+                  {rankShown.map((r) => (
+                    <li key={r.id}>
+                      <button onClick={() => activate(r.id)} onMouseEnter={() => setHover({ id: r.id, x: 0, y: 0 })} onMouseLeave={() => setHover(null)}
+                        className="rank-row" aria-label={`Peringkat ${r.rank}: ${r.name}`}>
+                        <span className="rank-badge">{r.rank}</span>
+                        <span style={{ flex: 1, minWidth: 0 }}>
+                          <span style={{ display: "flex", justifyContent: "space-between", gap: 6, fontSize: 13.5 }}>
+                            <span style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{titleCase(r.name)}</span>
+                            <span style={{ fontVariantNumeric: "tabular-nums", color: "var(--muted)" }}>{fmt(r.v.value, diff ? "" : cur.unit)}</span>
+                          </span>
+                          <span aria-hidden style={{ display: "block", height: 5, background: "var(--chip)", borderRadius: 3, marginTop: 3 }}>
+                            <span style={{ display: "block", height: 5, borderRadius: 3, width: `${Math.max(3, (Math.abs(r.v.value) / rankMax) * 100)}%`, background: scale?.color(r.v.value) ?? "var(--accent)" }} />
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  ))}
+                </ol>
+                {ranking.length > 15 && <button className="btn" style={{ marginTop: 8, width: "100%" }} onClick={() => setShowAll((x) => !x)}>{showAll ? "Ringkas" : `Tampilkan semua (${ranking.length})`}</button>}
+              </div>
+            )}
           </div>
         )}
         {basemapNote && <div className="float" role="status" style={{ position: "absolute", left: "50%", top: 70, transform: "translateX(-50%)", padding: "8px 14px", fontSize: 13, zIndex: 5 }}>Tile OpenStreetMap tidak dapat dimuat, beralih ke Peta Terang. <button className="crumb" onClick={() => setBasemapNote(false)}>Tutup</button></div>}
