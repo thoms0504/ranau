@@ -6,6 +6,11 @@ apps/web/.next/
 # Raw GeoJSON only needed at build time (prepare_geo reads them, processed/ is bundled)
 data/raw/
 
+# Uncompressed DB is too large for Hobby lambda (115 MB).
+# build.sh generates + compresses it to data/ranau.db.gz (~34 MB) at build time.
+# Never bundle the raw .db file.
+data/ranau.db
+
 # Dev/scratch files
 map/
 *.pyc

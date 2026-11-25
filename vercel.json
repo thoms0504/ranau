@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pip install -r apps/api/requirements.txt && cd apps/api && python -m ml.generate_dummy && python -m ml.train",
+  "buildCommand": "bash build.sh",
   "builds": [
     {
       "src": "api/index.py",
@@ -10,7 +10,7 @@
         "includeFiles": [
           "apps/api/**",
           "data/processed/**",
-          "data/ranau.db"
+          "data/ranau.db.gz"
         ]
       }
     }
