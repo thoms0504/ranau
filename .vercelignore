@@ -1,0 +1,14 @@
+# Exclude virtual environment and node_modules from Vercel bundle
+apps/api/.venv/
+apps/web/node_modules/
+apps/web/.next/
+
+# Raw GeoJSON only needed at build time (prepare_geo reads them, processed/ is bundled)
+data/raw/
+
+# Dev/scratch files
+map/
+*.pyc
+__pycache__/
+ranau.env
+PRD*.md
