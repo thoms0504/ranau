@@ -43,6 +43,7 @@ export default function PetaPage() {
   const [worstFirst, setWorstFirst] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const [showRank, setShowRank] = useState(false);
+  const [profTab, setProfTab] = useState<string | null>(null);
 
   const [geoAll, setGeoAll] = useState<GeoFC | null>(null);
   const [data, setData] = useState<DataResp | null>(null);
@@ -332,12 +333,23 @@ export default function PetaPage() {
                 {profile && profile.region.id === sel && (
                   <>
                     {profile.region.level !== "desa" && <p style={{ fontSize: 12.5, color: "var(--muted)", margin: "0 0 8px" }}>Nilai wilayah ini adalah <strong>akumulasi</strong> (jumlah, ditandai Σ) atau <strong>rata-rata tertimbang penduduk</strong> (x̄) dari seluruh desa di dalamnya.</p>}
-                    {THEMES.map((th) => {
-                      const rows = profile.items.filter((i) => i.theme === th);
-                      if (!rows.length) return null;
+                    {/* Filter tema profil */}
+                    {(() => {
+                      const availThemes = THEMES.filter((th) => profile.items.some((i) => i.theme === th && !i.aux));
+                      const activeProfTab = (profTab && availThemes.includes(profTab as typeof THEMES[number]) ? profTab : availThemes[0]) ?? null;
+                      const rows = activeProfTab ? profile.items.filter((i) => i.theme === activeProfTab && !i.aux) : [];
                       return (
-                        <div key={th} style={{ marginBottom: 10 }}>
-                          <div style={{ fontSize: 12, fontWeight: 800, color: THEME_COLOR[th], margin: "4px 0" }}>{th}</div>
+                        <>
+                          <div role="tablist" aria-label="Aspek profil" className="theme-tabs" style={{ marginBottom: 8 }}>
+                            {availThemes.map((th) => (
+                              <button key={th} role="tab" aria-selected={activeProfTab === th} className="theme-tab"
+                                style={{ ["--tc" as string]: THEME_COLOR[th] }}
+                                onClick={() => setProfTab(th)}>
+                                <ThemeIcon theme={th} size={16} />
+                                <span style={{ fontSize: 11 }}>{th}</span>
+                              </button>
+                            ))}
+                          </div>
                           <div className="card-flat" style={{ overflow: "hidden" }}>
                             {rows.map((r) => {
                               const d = r.previous != null ? r.value - r.previous : null;
@@ -354,9 +366,9 @@ export default function PetaPage() {
                               );
                             })}
                           </div>
-                        </div>
+                        </>
                       );
-                    })}
+                    })()}
                     {profile.items.filter((i) => i.aux).map((r) => (
                       <div key={r.indicator} className="card-flat" style={{ padding: "8px 12px", display: "flex", justifyContent: "space-between", fontSize: 13 }}>
                         <span>{r.name} <span style={{ color: "var(--muted)", fontSize: 11 }}>{r.agg === "jumlah" ? "Σ" : "x̄"}</span></span><strong>{fmt(r.value, r.unit)}</strong>
