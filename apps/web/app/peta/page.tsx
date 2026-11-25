@@ -410,61 +410,67 @@ export default function PetaPage() {
         )}
 
         {scale && cur && (
-          <div className="float" style={{ position: "absolute", right: 10, top: 76, padding: "11px 14px 10px", zIndex: 4, width: 300, maxWidth: "calc(100% - 20px)" }} role="group" aria-label="Legenda">
-            <div style={{ fontSize: 12.5, fontWeight: 700, lineHeight: 1.3 }}>{cur.name}</div>
-            <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 7 }}>{year}{year > last ? " (proyeksi)" : ""}{diff ? ` · selisih vs ${last}` : ` · ${cur.unit}`}</div>
-            <div aria-hidden style={{ display: "flex", height: 12, borderRadius: 6, overflow: "hidden", boxShadow: "inset 0 0 0 1px rgba(15,31,61,.12)" }}>
-              {scale.colors.map((c) => <span key={c} style={{ flex: 1, background: c }} />)}
-            </div>
-            <div className="flex justify-between" style={{ fontSize: 10.5, marginTop: 3, fontVariantNumeric: "tabular-nums" }}>
-              {scale.breaks.map((b, i) => <span key={i}>{diff && b > 0 ? "+" : ""}{fmtCompact(b)}</span>)}
-            </div>
-            <div style={{ fontSize: 11, color: "var(--muted)", marginTop: 6 }}>
-              5 kelas {diff ? "selang sama" : "kuantil (sebaran sama)"}; warna lebih gelap = nilai lebih tinggi{!diff && cur.direction !== "neutral" ? ` (${cur.direction === "low" ? "kurang baik" : "lebih baik"})` : ""}.
-              {noData > 0 && <> Abu-abu = tanpa data ({noData}).</>}
-            </div>
-            <div style={{ marginTop: 5 }}><span className={`badge ${provBadge(cur.status).cls}`}>{provBadge(cur.status).text}</span> {year > last && <span className="badge badge-fc">Proyeksi</span>}</div>
-          </div>
-        )}
+          <div style={{ position: "absolute", right: 10, top: 76, zIndex: 4, width: 300, maxWidth: "calc(100% - 20px)", display: "flex", flexDirection: "column", gap: 8 }}>
 
-        {cur && ranking.length > 0 && (
-          <div className="float" style={{ position: "absolute", right: 10, top: 76, zIndex: 4, width: 300, maxWidth: "calc(100% - 20px)" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 14px 8px", borderBottom: showRank ? "1px solid var(--border)" : "none", cursor: "pointer" }}
-              onClick={() => setShowRank((x) => !x)} role="button" aria-expanded={showRank} aria-label="Toggle peringkat">
-              <span style={{ fontSize: 12.5, fontWeight: 700 }}>Peringkat {LEVEL_LABEL[level].toLowerCase()}</span>
-              <span style={{ fontSize: 12, color: "var(--muted)" }}>{showRank ? "▲" : "▼"} {ranking.length} wilayah</span>
+            {/* Legenda */}
+            <div className="float" style={{ padding: "11px 14px 10px" }} role="group" aria-label="Legenda">
+              <div style={{ fontSize: 12.5, fontWeight: 700, lineHeight: 1.3 }}>{cur.name}</div>
+              <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 7 }}>{year}{year > last ? " (proyeksi)" : ""}{diff ? ` · selisih vs ${last}` : ` · ${cur.unit}`}</div>
+              <div aria-hidden style={{ display: "flex", height: 12, borderRadius: 6, overflow: "hidden", boxShadow: "inset 0 0 0 1px rgba(15,31,61,.12)" }}>
+                {scale.colors.map((c) => <span key={c} style={{ flex: 1, background: c }} />)}
+              </div>
+              <div className="flex justify-between" style={{ fontSize: 10.5, marginTop: 3, fontVariantNumeric: "tabular-nums" }}>
+                {scale.breaks.map((b, i) => <span key={i}>{diff && b > 0 ? "+" : ""}{fmtCompact(b)}</span>)}
+              </div>
+              <div style={{ fontSize: 11, color: "var(--muted)", marginTop: 6 }}>
+                5 kelas {diff ? "selang sama" : "kuantil (sebaran sama)"}; warna lebih gelap = nilai lebih tinggi{!diff && cur.direction !== "neutral" ? ` (${cur.direction === "low" ? "kurang baik" : "lebih baik"})` : ""}.
+                {noData > 0 && <> Abu-abu = tanpa data ({noData}).</>}
+              </div>
+              <div style={{ marginTop: 5 }}><span className={`badge ${provBadge(cur.status).cls}`}>{provBadge(cur.status).text}</span> {year > last && <span className="badge badge-fc">Proyeksi</span>}</div>
             </div>
-            {showRank && (
-              <div style={{ padding: "8px 14px 10px" }}>
-                <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 6 }}>{cur.name} · {year}{year > last ? " (proyeksi)" : ""}{diff ? " · selisih" : ""}. #1 = {cur.direction === "low" ? "nilai rendah lebih baik" : cur.direction === "high" ? "nilai tinggi lebih baik" : "nilai terbesar"}</div>
-                <div className="flex gap-2 mb-2">
-                  <div className="seg" role="tablist">
-                    <button role="tab" aria-selected={!worstFirst} onClick={() => setWorstFirst(false)} style={{ flex: 1 }}>Terbaik</button>
-                    <button role="tab" aria-selected={worstFirst} onClick={() => setWorstFirst(true)} style={{ flex: 1 }}>Terburuk</button>
-                  </div>
+
+            {/* Peringkat — otomatis di bawah legenda */}
+            {ranking.length > 0 && (
+              <div className="float">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px 14px 8px", borderBottom: showRank ? "1px solid var(--border)" : "none", cursor: "pointer" }}
+                  onClick={() => setShowRank((x) => !x)} role="button" aria-expanded={showRank} aria-label="Toggle peringkat">
+                  <span style={{ fontSize: 12.5, fontWeight: 700 }}>Peringkat {LEVEL_LABEL[level].toLowerCase()}</span>
+                  <span style={{ fontSize: 12, color: "var(--muted)" }}>{showRank ? "▲" : "▼"} {ranking.length} wilayah</span>
                 </div>
-                <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 4, maxHeight: 320, overflowY: "auto" }}>
-                  {rankShown.map((r) => (
-                    <li key={r.id}>
-                      <button onClick={() => activate(r.id)} onMouseEnter={() => setHover({ id: r.id, x: 0, y: 0 })} onMouseLeave={() => setHover(null)}
-                        className="rank-row" aria-label={`Peringkat ${r.rank}: ${r.name}`}>
-                        <span className="rank-badge">{r.rank}</span>
-                        <span style={{ flex: 1, minWidth: 0 }}>
-                          <span style={{ display: "flex", justifyContent: "space-between", gap: 6, fontSize: 13.5 }}>
-                            <span style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{titleCase(r.name)}</span>
-                            <span style={{ fontVariantNumeric: "tabular-nums", color: "var(--muted)" }}>{fmt(r.v.value, diff ? "" : cur.unit)}</span>
-                          </span>
-                          <span aria-hidden style={{ display: "block", height: 5, background: "var(--chip)", borderRadius: 3, marginTop: 3 }}>
-                            <span style={{ display: "block", height: 5, borderRadius: 3, width: `${Math.max(3, (Math.abs(r.v.value) / rankMax) * 100)}%`, background: scale?.color(r.v.value) ?? "var(--accent)" }} />
-                          </span>
-                        </span>
-                      </button>
-                    </li>
-                  ))}
-                </ol>
-                {ranking.length > 15 && <button className="btn" style={{ marginTop: 8, width: "100%" }} onClick={() => setShowAll((x) => !x)}>{showAll ? "Ringkas" : `Tampilkan semua (${ranking.length})`}</button>}
+                {showRank && (
+                  <div style={{ padding: "8px 14px 10px" }}>
+                    <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 6 }}>{cur.name} · {year}{year > last ? " (proyeksi)" : ""}{diff ? " · selisih" : ""}. #1 = {cur.direction === "low" ? "nilai rendah lebih baik" : cur.direction === "high" ? "nilai tinggi lebih baik" : "nilai terbesar"}</div>
+                    <div className="flex gap-2 mb-2">
+                      <div className="seg" role="tablist">
+                        <button role="tab" aria-selected={!worstFirst} onClick={() => setWorstFirst(false)} style={{ flex: 1 }}>Terbaik</button>
+                        <button role="tab" aria-selected={worstFirst} onClick={() => setWorstFirst(true)} style={{ flex: 1 }}>Terburuk</button>
+                      </div>
+                    </div>
+                    <ol style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gap: 4, maxHeight: 320, overflowY: "auto" }}>
+                      {rankShown.map((r) => (
+                        <li key={r.id}>
+                          <button onClick={() => activate(r.id)} onMouseEnter={() => setHover({ id: r.id, x: 0, y: 0 })} onMouseLeave={() => setHover(null)}
+                            className="rank-row" aria-label={`Peringkat ${r.rank}: ${r.name}`}>
+                            <span className="rank-badge">{r.rank}</span>
+                            <span style={{ flex: 1, minWidth: 0 }}>
+                              <span style={{ display: "flex", justifyContent: "space-between", gap: 6, fontSize: 13.5 }}>
+                                <span style={{ fontWeight: 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{titleCase(r.name)}</span>
+                                <span style={{ fontVariantNumeric: "tabular-nums", color: "var(--muted)" }}>{fmt(r.v.value, diff ? "" : cur.unit)}</span>
+                              </span>
+                              <span aria-hidden style={{ display: "block", height: 5, background: "var(--chip)", borderRadius: 3, marginTop: 3 }}>
+                                <span style={{ display: "block", height: 5, borderRadius: 3, width: `${Math.max(3, (Math.abs(r.v.value) / rankMax) * 100)}%`, background: scale?.color(r.v.value) ?? "var(--accent)" }} />
+                              </span>
+                            </span>
+                          </button>
+                        </li>
+                      ))}
+                    </ol>
+                    {ranking.length > 15 && <button className="btn" style={{ marginTop: 8, width: "100%" }} onClick={() => setShowAll((x) => !x)}>{showAll ? "Ringkas" : `Tampilkan semua (${ranking.length})`}</button>}
+                  </div>
+                )}
               </div>
             )}
+
           </div>
         )}
         {basemapNote && <div className="float" role="status" style={{ position: "absolute", left: "50%", top: 70, transform: "translateX(-50%)", padding: "8px 14px", fontSize: 13, zIndex: 5 }}>Tile OpenStreetMap tidak dapat dimuat, beralih ke Peta Terang. <button className="crumb" onClick={() => setBasemapNote(false)}>Tutup</button></div>}
