@@ -21,6 +21,7 @@
     "recharts": "^3.11.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^20",
