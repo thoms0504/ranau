@@ -3,9 +3,9 @@
   "functions": {
     "api/index.py": {
       "includeFiles": [
+        "api/**",
         "apps/api/**",
-        "data/processed/**",
-        "data/ranau.db.gz"
+        "data/**"
       ],
       "maxDuration": 30
     }

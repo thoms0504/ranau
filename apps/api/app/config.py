@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-DATA = ROOT / "data"
-PROCESSED = DATA / "processed"
+DATA = Path(os.environ.get("RANAU_DATA", ROOT / "data"))
+PROCESSED = Path(os.environ.get("RANAU_PROCESSED", DATA / "processed"))
 DB_PATH = Path(os.environ.get("RANAU_DB", DATA / "ranau.db"))
 ADMIN_TOKEN = os.environ.get("RANAU_ADMIN_TOKEN", "ranau-dev-token")
 ADMIN_USER = os.environ.get("RANAU_ADMIN_USER", "admin")
