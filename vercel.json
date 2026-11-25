@@ -1,21 +1,19 @@
 {
-  "version": 2,
-  "buildCommand": "bash build.sh",
-  "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "50mb",
-        "includeFiles": [
-          "apps/api/**",
-          "data/processed/**",
-          "data/ranau.db.gz"
-        ]
-      }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.py": {
+      "includeFiles": [
+        "apps/api/**",
+        "data/processed/**",
+        "data/ranau.db.gz"
+      ],
+      "maxDuration": 30
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "api/index.py" }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
   ]
 }
