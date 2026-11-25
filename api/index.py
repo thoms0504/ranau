@@ -4,6 +4,7 @@ import logging
 import os
 import shutil
 import sys
+import tempfile
 from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
@@ -24,7 +25,9 @@ sys.path.insert(0, str(ROOT / "apps" / "api"))
 # ---------------------------------------------------------------------------
 _db_gz  = ROOT / "data" / "ranau.db.gz"
 _db_src = ROOT / "data" / "ranau.db"      # present only if NOT using compression
-_db_tmp = Path("/tmp/ranau.db")
+_default_tmp = Path(tempfile.gettempdir()) / "ranau.db"
+_db_tmp = Path(os.environ.get("RANAU_DB", str(_default_tmp)))
+_db_tmp.parent.mkdir(parents=True, exist_ok=True)
 
 if not _db_tmp.exists():
     if _db_gz.exists():
