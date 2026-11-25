@@ -54,6 +54,17 @@ def check_year(year, mode):
         raise HTTPException(400, f"mode 'actual' hanya sampai {LAST}; gunakan 'forecast'")
 
 
+@app.get("/")
+def root():
+    return {
+        "status": "ok",
+        "service": "RANAU API",
+        "version": "0.1.0",
+        "health": "/health",
+        "docs": "/docs",
+    }
+
+
 @app.get("/health")
 def health():
     with db() as c:
