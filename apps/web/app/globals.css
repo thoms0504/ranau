@@ -478,3 +478,201 @@ html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *
 .stat-num { font-size: 26px; }
 .stat-tile { padding: 14px 16px; }
 .stat-num { white-space: nowrap; }
+
+/* ============ Penyesuaian Responsif Komprehensif (Mobile/Tablet/Desktop) ============ */
+.map-top-bar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 5;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: calc(100% - 20px);
+}
+.map-year-slider {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 22px;
+  z-index: 4;
+  padding: 10px 18px 8px;
+  width: min(560px, calc(100% - 24px));
+}
+.map-side-overlay {
+  position: absolute;
+  right: 10px;
+  top: 76px;
+  z-index: 4;
+  width: 300px;
+  max-width: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mobile-overlay-header {
+  display: none;
+}
+.mobile-map-toggles {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .site-header { width: calc(100% - 16px); margin: 6px auto; }
+  .nav-row { min-height: 50px; }
+  .nav-main { gap: 4px; padding-bottom: 2px; }
+  .nav-main .nav-link { font-size: 13px; padding: 6px 12px; }
+  .hbtn { padding: 6px 10px; font-size: 12px; }
+}
+
+@media (max-width: 800px) {
+  .map-shell {
+    flex-direction: column-reverse;
+    height: calc(100dvh - 120px);
+    min-height: 480px;
+  }
+  .map-panel {
+    width: 100% !important;
+    height: 48% !important;
+    border-right: 0 !important;
+    border-top: 1px solid var(--border) !important;
+    border-radius: 20px 20px 0 0 !important;
+    margin-left: 0 !important;
+    padding: 12px 14px 18px !important;
+    box-shadow: 0 -8px 24px rgba(15, 23, 42, .12);
+  }
+  .map-panel.collapsed {
+    height: 44px !important;
+    overflow: hidden !important;
+  }
+  .map-canvas {
+    height: 52%;
+  }
+
+  .mobile-map-toggles {
+    display: flex;
+    gap: 6px;
+  }
+  .mobile-map-toggles .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    height: 32px;
+  }
+
+  .map-top-bar {
+    left: 8px;
+    top: 8px;
+    gap: 6px;
+  }
+  .crumbs {
+    padding: 4px 8px;
+    font-size: 12.5px;
+  }
+  .crumb {
+    font-size: 12.5px;
+    padding: 2px 4px;
+  }
+
+  /* Slider tahun responsif di mobile */
+  .map-year-slider {
+    bottom: 8px;
+    padding: 6px 12px 6px;
+    width: min(340px, calc(100% - 76px));
+    left: 10px;
+    transform: none;
+    border-radius: 14px;
+  }
+  .map-year-slider label { font-size: 11px !important; }
+  .map-year-slider strong { font-size: 14px !important; }
+
+  /* Basemap picker di mobile diposisikan kanan bawah */
+  .bm-wrap {
+    bottom: 8px;
+    right: 8px;
+  }
+  .bm-picker {
+    padding: 3px;
+  }
+
+  /* Overlay legenda & peringkat saat dibuka di mobile */
+  .map-side-overlay {
+    display: none;
+    position: absolute;
+    right: 8px;
+    left: 8px;
+    top: 50px;
+    width: auto;
+    max-width: none;
+    max-height: calc(100% - 64px);
+    overflow-y: auto;
+    background: color-mix(in srgb, var(--card) 95%, transparent);
+    backdrop-filter: blur(14px);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 12px;
+    box-shadow: var(--shadow-lg);
+    z-index: 10;
+  }
+  .map-side-overlay.mobile-open {
+    display: flex;
+  }
+  .mobile-overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 4px;
+  }
+  .map-legend-box, .map-rank-box {
+    display: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: transparent !important;
+    padding: 4px 0 !important;
+  }
+  .map-legend-box.mobile-show, .map-rank-box.mobile-show {
+    display: block !important;
+  }
+
+  /* Kartu tema tab & indikator fleksibel di mobile */
+  .theme-tabs {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding: 4px;
+  }
+  .theme-tab {
+    padding: 8px 2px 7px;
+    font-size: 11px;
+  }
+  .ic-main {
+    padding: 8px 4px 8px 8px;
+    gap: 8px;
+  }
+  .ic-ico {
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+  }
+  .ic-name {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-tabs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .site-header {
+    border-radius: 16px;
+    width: calc(100% - 12px);
+    margin: 4px auto;
+  }
+  .nav-row {
+    padding: 6px 8px;
+    gap: 4px 8px;
+  }
+  .hbtn kbd {
+    display: none;
+  }
+}

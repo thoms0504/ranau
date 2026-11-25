@@ -44,6 +44,7 @@ export default function PetaPage() {
   const [showAll, setShowAll] = useState(false);
   const [showRank, setShowRank] = useState(false);
   const [profTab, setProfTab] = useState<string | null>(null);
+  const [mobileOverlay, setMobileOverlay] = useState<"none" | "legend" | "rank">("none");
 
   const [geoAll, setGeoAll] = useState<GeoFC | null>(null);
   const [data, setData] = useState<DataResp | null>(null);
@@ -389,7 +390,7 @@ export default function PetaPage() {
       </aside>
 
       <div className="map-canvas">
-        <div style={{ position: "absolute", left: 10, top: 10, zIndex: 5, display: "flex", gap: 8, flexWrap: "wrap", maxWidth: "calc(100% - 80px)" }}>
+        <div className="map-top-bar">
           {collapsed && <button className="btn float" onClick={() => setCollapsed(false)} aria-label="Buka panel">» Panel</button>}
           <nav className="float crumbs" aria-label="Posisi wilayah">
             {parentId && <button className="crumb" onClick={goBack} aria-label="Kembali satu tingkat">← Kembali</button>}
@@ -399,6 +400,10 @@ export default function PetaPage() {
             <span className="crumb-level">{LEVEL_LABEL[level]} ({vis?.features.length ?? "…"})</span>
           </nav>
           {cmp.length > 0 && <Link href={`/bandingkan?i=${ind}`} className="btn float">Bandingkan ({cmp.length}) →</Link>}
+          <div className="mobile-map-toggles">
+            <button className={`btn float ${mobileOverlay === "legend" ? "btn-primary" : ""}`} onClick={() => setMobileOverlay(o => o === "legend" ? "none" : "legend")}>Legenda</button>
+            <button className={`btn float ${mobileOverlay === "rank" ? "btn-primary" : ""}`} onClick={() => setMobileOverlay(o => o === "rank" ? "none" : "rank")}>Peringkat</button>
+          </div>
         </div>
 
         <MapView ref={mapRef} geo={vis} values={visValues} scale={scale} matched={matched} selected={sel} hovered={hover?.id ?? null} basemap={basemap} onBasemapFail={() => { setBasemap("terang"); setBasemapNote(true); }} onHover={setHover} onSelect={activate} />
@@ -416,16 +421,21 @@ export default function PetaPage() {
         )}
 
         {meta && (
-          <div className="float" style={{ position: "absolute", left: "50%", transform: "translateX(-50%)", bottom: 22, zIndex: 4, padding: "10px 18px 8px", width: "min(560px, calc(100% - 24px))" }}>
+          <div className="float map-year-slider">
             <YearSlider years={years} lastActual={last} value={year} onChange={setYear} />
           </div>
         )}
 
         {scale && cur && (
-          <div style={{ position: "absolute", right: 10, top: 76, zIndex: 4, width: 300, maxWidth: "calc(100% - 20px)", display: "flex", flexDirection: "column", gap: 8 }}>
+          <div className={`map-side-overlay ${mobileOverlay !== "none" ? "mobile-open" : ""}`}>
+            {/* Mobile close button when overlay is open on mobile */}
+            <div className="mobile-overlay-header">
+              <span style={{ fontWeight: 700, fontSize: 13 }}>{mobileOverlay === "legend" ? "Legenda Peta" : "Peringkat Wilayah"}</span>
+              <button className="btn" style={{ padding: "4px 8px", fontSize: 12 }} onClick={() => setMobileOverlay("none")}>✕ Tutup</button>
+            </div>
 
             {/* Legenda */}
-            <div className="float" style={{ padding: "11px 14px 10px" }} role="group" aria-label="Legenda">
+            <div className={`float map-legend-box ${mobileOverlay === "legend" ? "mobile-show" : ""}`} style={{ padding: "11px 14px 10px" }} role="group" aria-label="Legenda">
               <div style={{ fontSize: 12.5, fontWeight: 700, lineHeight: 1.3 }}>{cur.name}</div>
               <div style={{ fontSize: 11.5, color: "var(--muted)", marginBottom: 7 }}>{year}{year > last ? " (proyeksi)" : ""}{diff ? ` · selisih vs ${last}` : ` · ${cur.unit}`}</div>
               <div aria-hidden style={{ display: "flex", height: 12, borderRadius: 6, overflow: "hidden", boxShadow: "inset 0 0 0 1px rgba(15,31,61,.12)" }}>
@@ -443,7 +453,7 @@ export default function PetaPage() {
 
             {/* Peringkat — selalu tampil di bawah legenda */}
             {ranking.length > 0 && (
-              <div className="float" style={{ padding: "10px 14px 10px" }}>
+              <div className={`float map-rank-box ${mobileOverlay === "rank" ? "mobile-show" : ""}`} style={{ padding: "10px 14px 10px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
                   <span style={{ fontSize: 12.5, fontWeight: 700 }}>Peringkat {LEVEL_LABEL[level].toLowerCase()}</span>
                   <span style={{ fontSize: 12, color: "var(--muted)" }}>{ranking.length} wilayah</span>
