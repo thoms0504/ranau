@@ -32,6 +32,6 @@ export function basemapStyle(b: Basemap): string | StyleSpecification {
 const KEY = "ranau_basemap";
 export function loadBasemap(): Basemap {
   try { const v = localStorage.getItem(KEY) as Basemap | null; if (v && BASEMAPS.some((x) => x.id === v)) return v; } catch { /* abaikan */ }
-  return "osm";
+  return "terang";
 }
 export function saveBasemap(b: Basemap) { try { localStorage.setItem(KEY, b); } catch { /* abaikan */ } }
